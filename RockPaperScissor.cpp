@@ -21,6 +21,8 @@ int main()
 
     chooseWinner(player, computer);
 
+    std::cout << "Thank you for playing!\n";
+
     return 0;
 }
 
