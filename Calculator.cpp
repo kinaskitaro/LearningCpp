@@ -35,7 +35,13 @@ int main()
     }
     else if (operation == "/")
     {
-        cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
+        if (num2 == 0)
+        {
+            cout << "Cannot divide by zero" << endl;
+            return 1;
+        }
+        else
+            cout << num1 << " / " << num2 << " = " << num1 / num2 << endl;
     }
     else
     {
